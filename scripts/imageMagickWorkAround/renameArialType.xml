@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<typemap>
+
+  <type
+     format="ttf"
+     name="Arial"
+     fullname="Arial"
+     family="Arial"
+     glyphs="/usr/java/jre1.8.0_25/lib/fonts/LucidaBrightDemiBold.ttf"
+     />
+
+</typemap>
