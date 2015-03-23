@@ -6,7 +6,7 @@
      name="Arial"
      fullname="Arial"
      family="Arial"
-     glyphs="/usr/java/jre1.8.0_25/lib/fonts/LucidaBrightDemiBold.ttf"
+     glyphs="/data/Luna1/ni_tools/fsl_5.0.7/extras/src/libgd/tests/freetype/DejaVuSans.ttf"
      />
 
 </typemap>
