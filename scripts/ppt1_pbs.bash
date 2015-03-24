@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #PBS -l ncpus=4
-#PBS -o $PBS_O_WORKDIR/logs/$PBS_JOBID.log
-#PBS -e $PBS_O_WORKDIR/logs/$PBS_JOBID.error.log
+#PBS -o logs/$PBS_JOBNAME.$PBS_JOBID.log
+#PBS -e logs/$PBS_JOBNAME.$PBS_JOBID.err
 source /data/Luna1/ni_tools/ni_path_plus.bash
 
 # bash settings and functions

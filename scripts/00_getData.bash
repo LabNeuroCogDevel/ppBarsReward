@@ -19,6 +19,9 @@ taskspersubj=4
 for s in /data/Luna1/Raw/MRCTR/*_*/; do
   ld=$(basename $s)
 
+  [[ ! $ld =~ ^[0-9][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$ ]] &&
+    echo "$ld: bad name, skipping" && continue
+
   ragepattern="$s/axial_mprage_256x208*"
   # do we have mprage?
   mpragedir=$(ls -d $ragepattern 2>/dev/null|tail -n1)
